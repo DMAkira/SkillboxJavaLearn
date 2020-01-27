@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c92f5968-33f8-4a66-b6b6-671361903aea" name="Default Changelist" comment="" />
+    <list default="true" id="c92f5968-33f8-4a66-b6b6-671361903aea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module04/META-INF/module04.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task5/phoneNumber/phoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task5/phoneNumber/phoneNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +19,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1WQrJBkO5wmzYj43RcBxLdweyuD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -30,7 +43,7 @@
       <recent name="C:\Users\MKalinin\Desktop\module04\src\task01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bigText">
+  <component name="RunManager" selected="Application.phoneNumber">
     <configuration name="Alphabet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task04.alphabet.Alphabet" />
       <module name="module04" />
@@ -70,16 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="task01.IntegerExperiments.Main" />
-      <module name="module04" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bigText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task5.bigTextToWords.bigText" />
       <module name="module04" />
@@ -93,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="phoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task5.phoneNumber.phoneNumber" />
+      <module name="module04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task5.phoneNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.phoneNumber" />
         <item itemvalue="Application.bigText" />
         <item itemvalue="Application.Fioline" />
         <item itemvalue="Application.Loader" />
         <item itemvalue="Application.Alphabet" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -129,22 +145,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1846" height="253" key="GridCell.Tab.0.bottom" timestamp="1580115404227">
+    <state width="1846" height="253" key="GridCell.Tab.0.bottom" timestamp="1580118458449">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1846" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580115404227" />
-    <state width="1846" height="253" key="GridCell.Tab.0.center" timestamp="1580115404227">
+    <state width="1846" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1580118458449" />
+    <state width="1846" height="253" key="GridCell.Tab.0.center" timestamp="1580118458448">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1846" height="253" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580115404227" />
-    <state width="1846" height="253" key="GridCell.Tab.0.left" timestamp="1580115404227">
+    <state width="1846" height="253" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1580118458448" />
+    <state width="1846" height="253" key="GridCell.Tab.0.left" timestamp="1580118458447">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1846" height="253" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580115404227" />
-    <state width="1846" height="253" key="GridCell.Tab.0.right" timestamp="1580115404227">
+    <state width="1846" height="253" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1580118458447" />
+    <state width="1846" height="253" key="GridCell.Tab.0.right" timestamp="1580118458448">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1846" height="253" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580115404227" />
+    <state width="1846" height="253" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1580118458448" />
     <state x="226" y="34" key="new project wizard" timestamp="1579867762156">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
