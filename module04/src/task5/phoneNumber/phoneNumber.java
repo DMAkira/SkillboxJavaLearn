@@ -8,7 +8,6 @@ public class phoneNumber {
     public static void main(String[] args){
         System.out.println(inputText());
 
-
     }
 
     public static String inputText() {
