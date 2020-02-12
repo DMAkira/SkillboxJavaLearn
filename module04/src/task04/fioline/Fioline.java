@@ -20,10 +20,7 @@ public class Fioline {
 
         String fioInput = inputText();
 
-        fioInput = fioInput.trim(); // 1 - Убираем пробелы с краев
-
-
-            while (isRussian(fioInput) != true || numOfWords(fioInput) != true){
+            while (isRussian(fioInput) != true || numOfSpace(fioInput) != true){
                 fioInput = inputText();
             }
 
@@ -48,28 +45,34 @@ public class Fioline {
         System.out.println("Введите Фамилию Имя Отчество в формате Ф И О, русскими буквами");
         String fioInput = scanner.nextLine();
 
-        fioInput = fioInput.trim(); // 1 - Убираем пробелы с краев и оставляем по одному пробелу посередине
-
-        return fioInput;
+        fioInput = fioInput.trim(); // 1 - Убираем пробелы с краев
+        return delSpace(fioInput);//и оставляем по одному пробелу посередине
     }
-// 3 - Метод который считает количество слов, и все равно сколько между ними пробелов
-    public static boolean numOfWords(String fioString){
-        int wordsCount = 0;
+    public static String delSpace(String fioString){
 
-        for ( int i = 1; i <= fioString.length(); i++) {
-            if((fioString.charAt(i) != ' ' && fioString.charAt(i + 1) == ' ') || (fioString.charAt(i) == ' ' && fioString.charAt(i + 1) != ' ') ){
-                wordsCount++;
-            }
+        while (fioString.contains("  ")){
+            fioString = fioString.replace("  "," ");
+        }
+        return fioString;
+    }
 
-        }
-        if(wordsCount == 3){
-            return true;
-        }
-        else{
-            System.out.println("Введено больше(меньше) трёх слов или поставлен лишний(е) пробел(ы)..." + wordsCount);
-            return false;
+// 3 - Метод который считает количество слов по количеству пробелов
+public static boolean numOfSpace(String fioString){
+    int spaceCount = 0;
+
+    for (char c : fioString.toCharArray()) {
+        if(c == ' '){
+            spaceCount++;
         }
     }
+    if(spaceCount == 2){
+        return true;
+    }
+    else{
+        System.out.println("Введено больше(меньше) трёх слов или поставлен лишний(е) пробел(ы)...");
+        return false;
+    }
+}
 // 2 - Метод который проверяет содержит ли строка только русские буквы и пробелы, сравнвает с алфавитом-константой
     public static boolean isRussian(String fioString) {
 
